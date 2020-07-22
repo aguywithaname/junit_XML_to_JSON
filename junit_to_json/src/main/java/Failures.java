@@ -1,3 +1,9 @@
+/* 
+Filename: Failures.java
+Author: Jason Chow
+Date: 22/07/2020
+*/ 
+
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlText;
 
 public class Failures {

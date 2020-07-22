@@ -1,3 +1,9 @@
+/* 
+Filename: JunitJSON.java
+Author: Jason Chow
+Date: 22/07/2020
+*/ 
+
 import java.util.ArrayList;  
 
 public class JunitJSON {

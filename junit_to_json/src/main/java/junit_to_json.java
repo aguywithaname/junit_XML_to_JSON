@@ -159,7 +159,7 @@ public class junit_to_json {
             }
             catch(NullPointerException e){
                 System.out.println("\n");
-                System.out.println(e);
+                System.out.println("Error: " + e);
                 System.out.println("Could not find Junit XML file(s).");
             }
             
