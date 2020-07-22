@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.1"
+    compile "com.google.code.gson:gson:2.8.6"
+}
+
+mainClassName = 'junit_to_json'
+
+run {
+    if (project.hasProperty("appArgs")) {
+        args Eval.me(appArgs)
+    }
+}
