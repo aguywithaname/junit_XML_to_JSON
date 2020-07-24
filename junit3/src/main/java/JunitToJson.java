@@ -64,8 +64,12 @@ public class JunitToJson {
         final String PATH_TO_GRADLE_PROJECT = args[0];
 
         try {
-            // Code is from here: https://mkyong.com/java/how-to-execute-shell-command-from-java/
-            // About executing a bash command in a different dir from a Java program https://stackoverflow.com/questions/26697916/running-a-bash-command-in-different-directory-from-a-java-program
+            /* 
+               Code is from here: 
+               https://mkyong.com/java/how-to-execute-shell-command-from-java/
+               About executing a bash command in a different dir from a Java program:
+               https://stackoverflow.com/questions/26697916/running-a-bash-command-in-different-directory-from-a-java-program
+            */
 
             StringBuilder output = new StringBuilder();
 
